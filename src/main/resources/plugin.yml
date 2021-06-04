@@ -1,0 +1,6 @@
+name: CynicTeams
+version: Alpha-1.0
+author: Cynic Development Team
+main: com.cynichcf.hcf.HCF
+softdepend: [ CheatBreakerAPI ]
+depend: [ CommonLibs, ProtocolLib ]

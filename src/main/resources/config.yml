@@ -1,0 +1,238 @@
+Mongo:
+    Host: '127.0.0.1'
+    DBName: 'Teams'
+    AuthDB: 'admin'
+    Username: 'Example'
+    Password: 'password'
+
+LICENSE-KEY: 'PUT-YOUR-LICENSE'
+
+networkName: '&4&lCynic'
+serverName: Teams
+networkWebsite: cynichcf.com
+statsRoot: cynichcf.com/stats
+store: 'store.cynichcf.com'
+discord: 'discord.cynichcf.com'
+teamspeak: 'ts.cynichcf.com'
+kothReward: 'crate givekey %player% KOTH 3'
+CitadelReward: 'crate givekey %player% Citadel 1'
+killReward: 'crate givekey %player% Reward 1'
+
+event:
+  mainColor: '&3'
+  otherColor: '&7'
+
+tab:
+  serverName: '&4&lCynic'
+  sectionColor: '&6'
+  infoColor: '&7'
+  normal: true
+
+scoreboard:
+  tittle: '&4&lCynic&7 ┃&7&l Teams'
+  mainColor: '&6'
+  otherColor: '&e'
+  sectionColor: '&e'
+  timeColor: '&e'
+  footer: '&7&ocynichcf.com'
+  footerboolean: false
+  Location: true
+
+nightmare:
+  enabled: true
+  worldName: 'NightmareEvent'
+
+FFA-COMMAND: true
+glowstoneMountain: false
+cavern: false
+startingTimer: true
+forceInvites: false
+squads: false
+tiers: false
+idleCheck: true
+uhcHealing: false
+passiveTag: true
+allowBoosting: false
+waterPlacementInClaims: false
+blockRemoval: false
+rodPrevention: false
+skybridgePrevention: false
+reduceArmorDamage: true
+powers: false
+blockEntitiesThroughPortals: true
+archerTagColor: YELLOW
+defaultRelationColor: RED
+purgatory: false
+
+enchants:
+  protection: 2
+  power: 2
+  sharpness: 1
+
+help:
+  custom: false
+  section: '&6'
+  entry: '&e'
+  info: '&r'
+
+pvpClasses:
+  archer: true
+  bard: true
+  rogue: true
+
+minerWorld:
+  regen:
+    COAL_ORE: 30
+    IRON_ORE: 60
+    GOLD_ORE: 90
+    DIAMOND_ORE: 120
+
+potions:
+  REGEN:
+    splash: false
+    drinkables: false
+  SPEED:
+    splash: true
+    drinkables: true
+  FIRE_RESISTANCE:
+    splash: true
+    drinkables: true
+  POISON:
+    splash: true
+    drinkables: false
+  INSTANT_HEAL:
+    splash: true
+    drinkables: true
+  NIGHT_VISION:
+    splash: true
+    drinkables: true
+  WEAKNESS:
+    splash: false
+    drinkables: false
+  STRENGTH:
+    splash: false
+    drinkables: false
+  SLOWNESS:
+    splash: true
+    drinkables: false
+  INSTANT_DAMAGE:
+    splash: false
+    drinkables: false
+  WATER_BREATHING:
+    splash: true
+    drinkables: true
+  INVISIBILITY:
+    splash: false
+    drinkables: false
+
+BEACON-RENAME:
+  MIXING: '&eRandom Name... &7%random%'
+  MIXED: '&eName: &f%name%'
+  COOLDOWN: '&cPlease wait to try again.'
+  RENAMES:
+    - '&4&lCynic &e- &6&lTeams'
+    - '&8[&b&ki!i&8] &4&lInyected Vape Into Minecraft 1.7 &8[&b&ki!i&8]'
+    - '&6&l&k$$$&e&l&9&lSe potea con &4Click &6&lDerecho &c&lcara huevo &6&l&k$$$'
+
+blackMarket:
+  enabled: false
+  location: '30,70,30'
+
+Locations:
+  end_exit: '[world,0.27902131614555686,70.4398395677623,200.21974651220623,183.30182,13.515124]'
+World-Spawn:
+  end-spawn: '[world_the_end,0.0,70.36424342434589,0.0,-5.End035,-0.50012857]'
+
+database: "gkits"
+enchantment:
+  1:
+    name: "Speed"
+    display_name: "&cSpeed II"
+    type: "BOOTS" # HELMET(5), CHESTPLATE(6), LEGGINGS(7), BOOTS(8);
+    potions:
+      SPEED: 2
+  2:
+    name: "Nutrition"
+    display_name: "&cNutrition"
+    type: "HELMET"
+    effects:
+      - "NOHUNGER"
+  3:
+    name: "Repair"
+    display_name: "&7Repair"
+    type: "HELMET"
+    effects:
+      - "NODURABILITY"
+  4:
+    name: "FireResistance"
+    display_name: "&cFireResistance I"
+    type: "CHESTPLATE"
+    potions:
+      FIRE_RESISTANCE: 1
+
+Settings:
+  GUI-Size: 54
+  Inventory-Name: '&4&lKits'
+GKitz:
+  Example:
+    Display:
+      Slot: 32
+      Item: '401'
+      Glowing: true
+      Name: '&e&l&nCynic&f Kit'
+      Lore:
+        - ''
+        - '&7Purchase at &7&nstore.cynichcf.com'
+        - ''
+        - '&7&nKit Information'
+        - ''
+        - '&f * &7Cooldown: &f&n1 Day'
+        - '&f * &7Available In: &f%cooldowwn%s'
+        - ''
+        - '&7&oRight click to preview.'
+        - '&7&oLeft click to use.'
+    Auto-Equip: true
+    Cooldown: '24h'
+    Items:
+      - 'Item:276, Amount:1, Name:&e&l&nExample&f Sword, Enchantments:Sharpness;2,Unbreaking;5,Smite;5,Fire_Aspect;3'
+      - 'Item:310, Amount:1, Name:&e&l&nExample&f Helmet, Enchantments:Protection;2,Unbreaking;4'
+      - 'Item:311, Amount:1, Name:&e&l&nExample&f Chestplate, Enchantments:Protection;2,Unbreaking;4'
+      - 'Item:312, Amount:1, Name:&e&l&nExample&f Leggings, Enchantments:Protection;2,Unbreaking;4'
+      - 'Item:313, Amount:1, Name:&e&l&nExample&f Boots, Enchantments:Feather_Falling;4,Protection;2,Unbreaking;4, CustomEnchantments:Speed'
+      - 'Item:368, Amount:16'
+      - 'Item:393, Amount:64'
+      - 'Item:401, Amount:1, Name: &f[Example] Knockback, Enchantments:Sharpness;2,Fire_Aspect:3,Knockback:1'
+      - 'Item:322, Amount:32'
+      - 'Item:322;1, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+      - 'Item:373;16421, Amount:1'
+
+Glowstone-Reset-Time: 600 #In seconds. Default: 10m (600 seconds)
